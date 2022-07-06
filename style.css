@@ -9,6 +9,10 @@ h1 {
 
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .first-sec {
 
     background-image: url(images/donation13.jpg);
@@ -24,7 +28,7 @@ h1 {
 
 
 .button {
-    background-image: linear-gradient(orange, tomato);
+    background-color: #ff5959;
     text-decoration: none;
     border-radius: 10px;
     padding: 10px 40px;
@@ -32,4 +36,67 @@ h1 {
     display: inline-block;
     margin-top: 20px;
 
+}
+
+.div-allign {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.shadow {
+    width: 10%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px gray;
+    text-align: center;
+}
+
+.shadow-b {
+    width: 10%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 5px rgb(223, 99, 27);
+    text-align: center;
+    color: rgb(223, 99, 27);
+}
+
+.flexible-container {
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 50px;
+}
+
+.box-width {
+    width: 10%;
+    margin-left: 5%;
+}
+
+.flexible-container-two {
+    display: flex;
+    width: 90%;
+    margin-bottom: 100px;
+    margin-left: 5%;
+}
+
+.one-third-div {
+    width: 27%;
+    margin-left: 3%;
+    padding: 20px;
+}
+
+.one-third-div img {
+    width: 60px;
+}
+
+#food {
+    background-color: aqua;
+}
+
+#aid {
+    background-color: blue;
+}
+
+#clothes {
+    background-color: rgb(17, 122, 34);
 }
